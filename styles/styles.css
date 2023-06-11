@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+   
+}
+.screen{
+    margin-top: 70px;
+    width: 500px;
+    height: 100px;
+    background-color: #fff; border-radius: 5px; 
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3); 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; padding: 10px;
+    font-family: monospace;
+}
+.screenInput 
+{ border: none; 
+    font-size: 36px; 
+    font-weight: 700; 
+    text-align: right;
+    margin-left: 4px;
+    background-color: #d0cbcb; border: 2px solid #ddd; 
+    border-radius: 5px; 
+    box-shadow: inset 0px 0px 5px #ddd;
+     color: #333; 
+     font-size: 36px;
+     height: 60px; 
+     padding: 10px;
+      text-align: left; 
+      width: 400px;
+ } 
+.body{
+    padding-top: 10px;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    background-color: #1e1e1e; 
+    color: #fff; font-family: 'Montserrat', sans-serif;
+   
+}
+.digits{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-right: 1px;
+}
+.operators{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+   
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.digits>button{
+    margin-left: 10px;
+    border-radius: 49px;
+    height: 83px;
+    width: 90px;
+    font-size: 1.4rem;
+    background-color: #ffcc00; border: none; 
+    color: #000; padding: 12px;
+     font-size: 24px;
+     border-radius: 5px; 
+     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3); 
+     transition: box-shadow 0.3s ease; 
+}
+.digits>button:hover 
+{ background-color: #e6b800; 
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.5);
+ }
+.operators>button{
+    height: 63px;
+    width: 75px;
+    border-radius: 88px;
+    margin-top: 5px;
+    font-size: 1.7rem;
+    background-color: #333; border: none; color: #fff; font-size: 24px; padding: 12px 20px;
+     border-radius: 5px; 
+     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+      transition: background-color 0.3s ease; 
+}
+.operators>button:hover{
+    background-color: #666;
+}
+.footer{
+   
+    width: 500px;
+}
+.cler{
+    border-radius: 49px;
+    height: 83px;
+    width: 90px;
+    font-size: 3rem;
+}
+.footer>button{
+    width: 500px;
+    height: 40px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #f44336; border: none; border-radius: 5px; color: #fff; font-size: 24px;
+     padding: 12px 20px; 
+     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3); 
+     transition: background-color 0.3s ease; 
+}
+.footer>button:hover{
+    background-color: #d32f2f;
+}
