@@ -1,3 +1,4 @@
+ [![banner image](https://i.gifer.com/origin/60/60c05625ac6bce7f8254094ded58fa50.gif "banner image")]
 <h1 align="center">Calculator Project</h1>
 <hr></hr>
 
