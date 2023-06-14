@@ -25,4 +25,4 @@
 </ul>
 <hr></hr>
 <h4>Live Preview</h4>
- <a href="https://georgelennon.github.io/Calculator/">Here</a>
+ <a href="[https://tar-genius.github.io/Calculator/">Here</a>
